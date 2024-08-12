@@ -9,7 +9,7 @@
 
 ---
 
-# Guide
+# Quick Guide
 
 <strong style="color: #388e3c;">Note:</strong> You only need to have one RP2040-based card. In this example it will be done with `MahirKart`.
 
@@ -26,4 +26,8 @@
 
 Navigate to lib in the recently extracted folder and copy `adafruit_hid` to the lib folder on your Raspberry Pi Pico.
 
-- <strong style="color: #388e3c;">5.</strong> We need to create the `python` code that we want our card to run every time it starts, in `CircutlPython` the file name should be `code.py` (`main.py` in MicroPython) and save it inside our card.
+- <strong style="color: #388e3c;">5.</strong> We need to create the `python` code that we want our card to run every time it starts, in `CircutlPython` the file name should be `code.py` (`main.py` in MicroPython) and save it inside our card. You can review and download the code.py file I used [here](https://github.com/embeddedJedi/BadUSB_MahirKart/blob/main/code.py) (This code is used to execute a file called `payload.dd`. And in this way it will be able to perform the commands we want in the `payload.dd` file)
+
+<strong style="color: #388e3c;">Note:</strong> If your keyboard is not UK, you can select a language that matches your keyboard language [here](https://github.com/Neradoc/Circuitpython_Keyboard_Layouts/releases/tag/20231122) and install it on your card.
+
+- <strong style="color: #388e3c;">6.</strong> Find a `payload.dd` script or you can do it yourself. (It is very simple to make, you just need to set the right timing and the right key presses for what I want to do. You can find the sample `payload.dd` file we used in this project [here](https://github.com/embeddedJedi/BadUSB_MahirKart/blob/main/payload.dd))
