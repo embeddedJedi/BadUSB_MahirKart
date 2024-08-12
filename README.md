@@ -11,7 +11,7 @@
 
 # Quick Guide
 
-<strong style="color: #388e3c;">Note:</strong> You only need to have one RP2040-based card. In this example it will be done with `MahirKart`.
+<strong style="color: #388e3c;">Note:</strong> You only need to have one RP2040-based card. In this example it will be done with [`MahirKart`](https://mahirkart.net/).
 
 
 - <strong style="color: #388e3c;">1.</strong> Plug the device into a USB port while holding the boot button. It will show up as a removable media device named `RPI-RP2`.
@@ -31,3 +31,28 @@ Navigate to lib in the recently extracted folder and copy `adafruit_hid` to the 
 <strong style="color: #388e3c;">Note:</strong> If your keyboard is not UK, you can select a language that matches your keyboard language [here](https://github.com/Neradoc/Circuitpython_Keyboard_Layouts/releases/tag/20231122) and install it on your card.
 
 - <strong style="color: #388e3c;">6.</strong> Find a `payload.dd` script or you can do it yourself. (It is very simple to make, you just need to set the right timing and the right key presses for what I want to do. You can find the sample `payload.dd` file we used in this project [here](https://github.com/embeddedJedi/BadUSB_MahirKart/blob/main/payload.dd))
+
+---
+
+# Instagram Video
+
+<a href="https://www.instagram.com/reel/CxvdougIH8q/">
+    <img src="https://github.com/user-attachments/assets/a24b8ae9-c9e7-47af-ab6b-435e268e2032" alt="Instagram Video" style="width:10%; height:10%;">
+</a> 
+
+
+<sup>(Click here to go to the video)</sup>
+
+---
+
+# Resource
+
+[Mahir Kart](https://mahirkart.net/)
+
+[CircuitPython](https://circuitpython.org/)
+
+[Pico-Ducky](https://github.com/dbisu/pico-ducky)
+
+[MicroPython](https://micropython.org/)
+
+---
