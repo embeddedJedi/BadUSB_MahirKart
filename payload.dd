@@ -14,7 +14,7 @@ ENTER
 DELAY 2000
 
 REM Takip edilmek istenen instagram adresini iki "/" arasina yazin.
-STRING https://www.instagram.com/magnetarge/
+STRING https://www.instagram.com/superior4tech/
 DELAY 1000
 ENTER
 
